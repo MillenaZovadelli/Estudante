@@ -1,0 +1,40 @@
+<div class="container" style="background-color: var(--bs-light);">
+    <div class="row">
+        <div class="col-7 m-auto">
+        <h1>Cadastro de Alunos</h1>
+        <form [formGroup]="formGroupStudent">
+            <div class="mb-3">
+              <label for="imputname" class="form-label">Nome: </label>
+              <input formControlName="name" type="text" class="form-control" id="Inputname" aria-describedby="nameHelp">
+              <div id="nameHelp" class="form-text">Digite o seu nome</div>
+            </div>
+    
+            <div class="mb-3">
+                <label for="imputCourse" class="form-label">Curso: </label>
+                <input formControlName="course" type="Course" class="form-control" id="InputCourse" aria-describedby="CourseHelp">
+                <div id="CourseHelp" class="form-text">Digite o seu curso</div>
+              </div>
+    
+            <button type="submit" class="btn" style="background-color: var(--bs-light-border-subtle);" (click)="save()">Salvar</button>
+            <h1 class="text-center">Alunos Cadastrados</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Curso</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let s of students">
+                  <th scope="row">{{s.id}}</th>
+                  <td>{{s.name}}</td>
+                  <td>{{s.course}}</td>
+                </tr>
+                <tr>
+              </tbody>
+            </table>
+          </form>
+        </div>
+    </div>
+</div>

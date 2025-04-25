@@ -1,0 +1,29 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Ana Maria",
+      "course": "Computação"
+    },
+    {
+      "id": 2,
+      "name": "Fermanda Silva",
+      "course": "Computação"
+    },
+    {
+      "id": 3,
+      "name": "Marcela Rosa",
+      "course": "Gestão Agil"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

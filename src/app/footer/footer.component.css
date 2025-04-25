@@ -1,0 +1,10 @@
+p {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bs-warning);
+    margin: 0;
+    text-align: center;
+}
