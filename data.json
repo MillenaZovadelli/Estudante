@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Marcela Rosa",
       "course": "Gestão Agil"
+    },
+    {
+      "id": 4,
+      "name": "João joaquim",
+      "course": "Arquitetura"
     }
   ],
   "comments": [
